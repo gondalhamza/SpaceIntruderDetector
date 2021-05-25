@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "./src/cli.rb"
+
+
+ARGV = "./lib/radar" if ARGV.nil?
+
+CLI.run(ARGV)
